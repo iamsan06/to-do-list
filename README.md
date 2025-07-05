@@ -40,9 +40,6 @@ No build tools or installation required.
 - `todo.js` — Handles app logic: adding, deleting, and reordering tasks.
 - `todo.css` — Styles for layout and interactivity.
 
-## Screenshot
-
-![App Screenshot](screenshot.png)
 
 ## Future Improvements
 
@@ -56,8 +53,6 @@ No build tools or installation required.
 - [Google Fonts](https://fonts.google.com/) — for providing beautiful, free web fonts.
 - [Font Awesome](https://fontawesome.com/) — for high-quality and scalable vector icons.
 - [SortableJS](https://sortablejs.github.io/Sortable/) — for enabling drag-and-drop functionality.
-- [MDN Web Docs](https://developer.mozilla.org/) — for comprehensive and up-to-date HTML, CSS, and JS documentation.
-- [Favicon.io](https://favicon.io/) — for easy favicon generation and resources.
 
 ---
 
