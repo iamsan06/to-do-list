@@ -1,0 +1,167 @@
+body{
+  background-color: #2d545e;
+}
+
+.checklist{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+.modal{
+    padding: 7px;
+    
+    height: 125px;
+    width: 400px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    animation: popupFadeIn 0.3s ease-out;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: #e1b382;
+    padding-bottom: 15px;
+}
+.modalbuttons{
+    display: flex;
+    
+    gap: 15px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+}
+.textarea{
+    border-radius: 10px;
+    border: 2px solid black;
+    }
+
+.addbutton {
+  background-color: rgb(172, 231, 85);
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 80px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.1725s ease-in-out;
+  color: white;
+}
+
+.addbutton:hover {
+  background-color: rgb(114, 228, 124);
+}
+.addclear{
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  bottom: 20px;
+  position: fixed;
+  transform: translateX(180%);
+}
+.clearbutton {
+  background-color: #f56565;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 80px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.clearbutton:hover {
+  background-color: #e53e3e;
+}
+.inputarea{
+  font-size: 30px;
+}
+.checklistitem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.checklist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.line{
+  background-color: #e1b382;
+  height: 1px;
+  padding: 0px;
+}
+
+.trash{
+  margin-top: 16px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+input[type="checkbox"] {
+  transform: scale(1.8); 
+  accent-color: #e1b382;
+}
+.task{
+  display: flex;
+  gap: 30px;
+  vertical-align: middle;
+
+}
+.trashbutton{
+  background-color: #e1b382;
+  font-size: 28px;
+  padding: 6px;
+  border-radius: 40px;
+  border: none;
+  width: 45px;
+}
+.trashbutton:hover{
+  background-color: #e53e3e;
+}
+
+.dateheading{
+   font-family: "Playwrite ID", cursive;
+  color: #e1b382;
+  font-size: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#task:checked+label{
+  text-decoration: line-through;
+}
+
